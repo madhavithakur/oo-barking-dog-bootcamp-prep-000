@@ -5,27 +5,19 @@ class Dog
     @bark = bark
   end 
 
-def name=(name)
-  @name = name
+  def name=(name)
+    @name = name
+  end 
+   
+  def name
+    @name
+  end
+   
+   
+  def bark
+    puts "woof!"
+  end
+ 
 end 
- 
-def name
-  @name
-end
- 
- 
-def bark
-  puts "woof!"
-end
- 
-end 
 
 
-
-# class Dog
-#   attr_accessor :name
-
-#   def bark
-#     puts "woof!"
-#   end
-# end
